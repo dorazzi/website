@@ -17,12 +17,10 @@
 }
 
 @media(max-width:777px){
-    /* .contact-section .w-50,
-    .contact-section .contact-item, */
+
     .portfolio-popup .description,
     .portfolio-popup .info,
     .portfolio-section .portfolio-item,
-    /* .service-section .service-item, */
     .about-section .skills .skill-item,
     .about-section .about-info,
     .about-section .about-img,

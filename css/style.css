@@ -1,9 +1,6 @@
-/* fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 
-
-/* global style */
-/* Define custom CSS variables */
 :root{
     --bg-black-900: #000000;
     --bg-black-100: #dddddd;
@@ -18,7 +15,7 @@
     --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
     --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
 }
-/* override custom CSS variables for dark theme */
+
 body.dark{
     --bg-black-900: #ffffff;
     --bg-black-100: #353535;
@@ -240,9 +237,6 @@ img{
 .section.hide{
     display: none;
 }
-
-
-/* preloader */
 .preloader{
     position: fixed;
     left: 0;
@@ -279,9 +273,6 @@ img{
     animation-delay: 0.2s;
 }
 
-
-
-/* header */
 .header{
     padding: 20px 15px;
     position: absolute;
@@ -340,7 +331,6 @@ img{
 }
 
 
-/* navigation menu */
 .nav-menu{
     position: fixed;
     background-color: var(--bg-black-50);
@@ -440,7 +430,6 @@ img{
 }
 
 
-/* home section */
 .home-section{
     position: relative;
 }
@@ -490,7 +479,7 @@ img{
 }
 
 
-/* about section */
+
 .about-section{
     padding: 80px 0 0;
     min-height: 100vh;
@@ -728,7 +717,8 @@ img{
 }
 
 
-/* service section */
+
+
 .service-section{
     padding:80px 0 80px;
     min-height: 100vh;
@@ -797,7 +787,7 @@ img{
 }
 
 
-/* portfolio section */
+
 .portfolio-section{
     padding: 80px 0 80px;
     min-height: 100vh;
@@ -888,7 +878,7 @@ img{
 }
 
 
-/* portfolio popup */
+
 .portfolio-popup{
     background-color: var(--bg-black-50);
     position: fixed;
@@ -1112,7 +1102,8 @@ img{
     right: 15px;
 }
 
-/* testimonial section */
+
+
 .testimonial-section{
     padding: 80px 0 80px;
     min-height: 100vh;
@@ -1192,7 +1183,7 @@ img{
 }
 
 
-/* contact section */
+
 .contact-section{
     padding: 80px 0 80px;
     min-height: 100vh;
